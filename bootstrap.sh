@@ -136,10 +136,12 @@ if [ "$USE_UV" -eq 1 ]; then
     echo "Synchronizing exact dependencies from upstream uv.lock..."
     # Ensure Python 3.11 is targeted if available, or current python
     mkdir -p "$VENV_DIR"
-    uv venv "$VENV_DIR" --python 3.11 2>/dev/null || uv venv "$VENV_DIR"
+    if [ ! -f "${VENV_DIR}/bin/python" ]; then
+        uv venv "$VENV_DIR" --python 3.11 2>/dev/null || uv venv "$VENV_DIR"
+    fi
     
     # Authoritative sync of exact frozen dependencies into $VENV_DIR
-    VIRTUAL_ENV="$VENV_DIR" uv sync --frozen --no-dev --project "$ACE_STEP_DIR"
+    VIRTUAL_ENV="$VENV_DIR" uv sync --active --frozen --no-dev --project "$ACE_STEP_DIR"
     
     # Install lab-specific auxiliary package (huggingface_hub)
     VIRTUAL_ENV="$VENV_DIR" uv pip install -r "${REPO_ROOT}/requirements.txt"

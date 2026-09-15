@@ -124,7 +124,8 @@ def download_models(
     print(f"  Available Disk Space    : {free_gb} GB")
 
     for key, path in cache_hits:
-        print(f"  -> [CACHE HIT]  {key:<22} : Verified at {path}")
+        spec = PINNED_CHECKPOINTS[key]
+        print(f"  -> [CACHE HIT]  {key:<22} : Verified at {path} ({spec['repo_id']} @ {spec['revision'][:10]})")
 
     for key, spec, path, missing in needs_download:
         reasons = f"missing {', '.join(missing)}" if missing else "forced"

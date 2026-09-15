@@ -8,7 +8,7 @@ pinned snapshot requirements (Linux x86_64 / CUDA 12.8).
 import argparse
 import platform
 import sys
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 
 def parse_version_tuple(v_str: str) -> Tuple[int, ...]:
