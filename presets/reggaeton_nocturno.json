@@ -1,0 +1,23 @@
+{
+  "name": "reggaeton_nocturno",
+  "display_name": "Reggaeton Nocturno",
+  "description": "Minimal nocturnal reggaeton around 94 BPM, dry/muffled dembow, deep sub bass, sparse hypnotic melody.",
+  "bpm": 94,
+  "default_duration": 30,
+  "default_seed": 42,
+  "default_guidance_scale": 7.0,
+  "default_inference_steps": 32,
+  "vocal_language": "es",
+  "modes": {
+    "instrumental": {
+      "caption": "minimal nocturnal reggaeton, 94 bpm, dry muffled dembow rhythm, deep 808 sub bass, dark atmospheric pads, sparse hypnotic synth pluck melody, late night underground club, warm punchy mix, instrumental",
+      "lyrics": "[Instrumental]",
+      "instrumental": true
+    },
+    "male-vocal": {
+      "caption": "minimal nocturnal reggaeton, 94 bpm, dry muffled dembow groove, deep 808 sub bass, dark ambient synthesizer, Spanish low male baritone vocals, late night perreo vibe, moody delivery",
+      "lyrics": "[Verse]\nBajo la luna las sombras se mueven\nEl bajo retumba la noche no muere\nLento despacio el pulso acelera\nNadie se va nadie se entera\n\n[Chorus]\nOscuro el ambiente suave el compas\nSigue la pista no mires atras\nOscuro el ambiente suave el compas\nSigue la pista no mires atras",
+      "instrumental": false
+    }
+  }
+}

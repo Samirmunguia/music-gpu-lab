@@ -1,0 +1,23 @@
+{
+  "name": "reggaeton_2010s",
+  "display_name": "Reggaeton 2010s",
+  "description": "Early-2010s Puerto Rican-style reggaeton character, dirty dry dembow, memorable bright synth/arpeggio motif, deep bass, not modern glossy pop-reggaeton.",
+  "bpm": 95,
+  "default_duration": 30,
+  "default_seed": 42,
+  "default_guidance_scale": 7.0,
+  "default_inference_steps": 32,
+  "vocal_language": "es",
+  "modes": {
+    "instrumental": {
+      "caption": "early 2010s Puerto Rican style reggaeton, 95 bpm, raw dirty dry dembow beat, memorable bright digital synthesizer arpeggio lead motif, deep punchy sub bass, classic perreo bounce, mixtape aesthetic, instrumental",
+      "lyrics": "[Instrumental]",
+      "instrumental": true
+    },
+    "male-vocal": {
+      "caption": "early 2010s Puerto Rican style reggaeton, 95 bpm, vintage bright synth arpeggio lead, raw dry dembow beat, deep sub bass, Spanish low male baritone vocals, classic perreo bounce, energetic melodic delivery",
+      "lyrics": "[Verse]\nSube la sintesis que esto va a empezar\nEl bajo retumba nadie va a parar\nSonido clasico de la vieja escuela\nLa pista encendida la vibra nos quema\n\n[Chorus]\nSintetizador brillante pegado al compas\nCon el dembow sucio dale una vez mas\nSintetizador brillante pegado al compas\nCon el dembow sucio dale una vez mas",
+      "instrumental": false
+    }
+  }
+}

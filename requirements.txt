@@ -1,0 +1,4 @@
+# music-gpu-lab auxiliary dependencies
+# Upstream ACE-Step dependencies are authoritatively installed via uv.lock (uv sync --frozen)
+# or upstream pyproject.toml. Do not override them with conflicting versions here.
+huggingface_hub>=0.28.0

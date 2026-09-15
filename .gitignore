@@ -1,0 +1,39 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Checkpoints, models, and third-party cloned sources
+checkpoints/
+.cache/
+hf_cache/
+*.safetensors
+*.bin
+*.pt
+src/
+
+# Outputs and logs
+outputs/*
+!outputs/.gitkeep
+*.log
+
+# Secrets, keys, and credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials*
+id_rsa*
+
+# System & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

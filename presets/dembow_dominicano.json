@@ -1,0 +1,23 @@
+{
+  "name": "dembow_dominicano",
+  "display_name": "Dembow Dominicano",
+  "description": "Raw modern Dominican dembow, minimal percussion, characteristic modern snare, deep bass, no generic fast/pop dembow.",
+  "bpm": 118,
+  "default_duration": 30,
+  "default_seed": 42,
+  "default_guidance_scale": 7.0,
+  "default_inference_steps": 32,
+  "vocal_language": "es",
+  "modes": {
+    "instrumental": {
+      "caption": "raw modern Dominican dembow, 118 bpm, minimal hard-hitting percussion, characteristic punchy modern snare, syncopated dembow rhythm, deep distorted 808 bassline, raw urban street energy, stripped back arrangement, instrumental",
+      "lyrics": "[Instrumental]",
+      "instrumental": true
+    },
+    "male-vocal": {
+      "caption": "raw modern Dominican dembow, 118 bpm, minimal hard-hitting percussion, punchy modern snare, heavy sub bass, Spanish low male baritone cadence, rhythmic spoken flow, barrio underground street energy",
+      "lyrics": "[Verse]\nCorte directo sonido de esquina\nLa caja golpea la calle domina\nPega en el pecho la fuerza revienta\nEl ritmo sincopa la pista calienta\n\n[Chorus]\nDembow de calle sin freno ni adorno\nRetumba el bloque de noche y retorno\nDembow de calle sin freno ni adorno\nRetumba el bloque de noche y retorno",
+      "instrumental": false
+    }
+  }
+}
